@@ -27,8 +27,8 @@ session_start();
 $url = "http://vps-3c609307.vps.ovh.net/absilone-ads-dashboard/"
   
 $fb = new Facebook([
-  'app_id' => 'YOUR_APP_ID',
-  'app_secret' => 'YOUR_APP_SECRET',
+  'app_id' => '832712925137681',
+  'app_secret' => 'ff994fa6ce341fd37c75707419ae4650',
   'default_graph_version' => 'v12.0',
 ]);
 
