@@ -17,6 +17,9 @@ Remember to replace 'YOUR_APP_ID', 'YOUR_APP_SECRET', and 'https://yourwebsite.c
 For a production app, you'll also want to handle errors more gracefully and implement logging and possibly a user interface to display the campaign data.
 Remember to always adhere to Meta's terms of service and ensure your use of the API complies with all policies and regulations. You'll find more details and information in the official Meta Marketing API documentation.
 */
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 require_once 'vendor/autoload.php';
 
