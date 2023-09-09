@@ -1,0 +1,8 @@
+/*.adcampaign-section.collapsed > *:not(.toggle-button) {
+    display: none;
+}*/
+
+.hidden {
+    display: none;
+}
+

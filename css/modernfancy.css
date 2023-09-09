@@ -1,0 +1,149 @@
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.adaccount {
+    background-color: #ecf0f1;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adaccount h3 {
+    color: #3498db;
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+
+
+.adcampaign-section {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+.adcampaign {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.adsets-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.adsets-table th, .adsets-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.adsets-table th {
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.adsets-table tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+.adsets-table tr:nth-child(odd) {
+    background-color: #bdc3c7;
+}
+
+.adsets-table td, .adsets-table th {
+    border: 1px solid #95a5a6;
+}
+
+.budgetcampaign {
+    background-color: #16a085;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-weight: bold;
+}
+
+.campagne {
+    font-weight: normal;
+}
+
+.campagne td {
+    padding: 5px;
+}
+
+.campagne:nth-child(even) {
+    background-color: #1abc9c;
+}
+
+.campagne:nth-child(odd) {
+    background-color: #16a085;
+}
+
+.toggle-button {
+    background-color: #3498db; /* Blue background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 5px 10px; /* Reduce padding to make the button smaller */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline-block */
+    margin-right: 20px; /* Increase margin to add more space between the button and the text */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 50%; /* Make the button round */
+    font-size: 14px; /* Reduce font size */
+    vertical-align: middle; /* Vertically center align with the text */
+}
+
+.toggle-button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+
+
+
+
+
+
+.filter-section {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#keyword-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    width: 80%;
+}
+
+#filter-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+
+#filter-button:hover {
+    background-color: #2980b9;
+}
+
